@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - DTS</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header><h1>Contacto</h1></header>
+    <main>
+        <form method="POST" action="/enviar_contacto">
+            <label>Nome: <input type="text" name="nome" required></label><br>
+            <label>NIF: <input type="text" name="nif" required></label><br>
+            <label>Telemóvel: <input type="tel" name="telemovel" required></label><br>
+            <label>Email: <input type="email" name="email" required></label><br>
+            <label>Serviço:
+                <select name="servico">
+                    <option>Instalação de câmaras</option>
+                    <option>Redes informáticas</option>
+                    <option>Otimização Wi-Fi</option>
+                </select>
+            </label><br>
+            <label>Mensagem:<br><textarea name="mensagem"></textarea></label><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
