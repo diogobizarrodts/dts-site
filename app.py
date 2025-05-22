@@ -18,12 +18,12 @@ app.secret_key = 'chave_super_secreta_dts'
 users = {
     "gerente@dts.pt": "1234",
     "funcionaria@dts.pt": "4321"
->>>>>>> 1d7ded26f66b120f954ecbe53e8c51029c665eb5
+ 1d7ded26f66b120f954ecbe53e8c51029c665eb5
 }
 
 @app.route('/')
 def home():
-<<<<<<< HEAD
+ HEAD
     return render_template('index.html')
 =======
     return render_template('home.html')
