@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>DTS - Diogo Tech Solutions</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f0f6fc; color: #003366; }
+        header, footer { background: #003366; color: white; text-align: center; padding: 1em 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 900px; margin: auto; padding: 2rem; }
+        form input, form select, form textarea, form button {
+            width: 100%; margin-bottom: 1rem; padding: 0.5rem;
+            border-radius: 5px; border: 1px solid #ccc;
+            font-family: Arial, sans-serif;
+        }
+        button { background-color: #0055aa; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #003f7f; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DTS - Diogo Tech Solutions</h1>
+        <nav>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#contacto">Contacto</a>
+            <a href="/login">Login</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Instalação de câmaras de segurança</li>
+                <li>Instalação e organização de redes informáticas</li>
+                <li>Otimização e ampliação de sinal Wi-Fi</li>
+            </ul>
+        </section>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Empresa portuguesa, sediada no Porto, especializada em soluções tecnológicas como redes, Wi-Fi e videovigilância.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form method="POST" action="/enviar_contacto">
+                <input type="text" name="nome" placeholder="Nome" required autocomplete="name" />
+                <input type="text" name="nif" placeholder="NIF" required autocomplete="off" />
+                <input type="tel" name="telemovel" placeholder="Telemóvel" required autocomplete="tel" />
+                <input type="email" name="email" placeholder="Email" required autocomplete="email" />
+                <select name="servico" required>
+                    <option value="">-- Selecionar Serviço --</option>
+                    <option value="camaras">Instalação de câmaras</option>
+                    <option value="redes">Instalação de redes</option>
+                    <option value="organizacao">Organização de redes</option>
+                    <option value="wifi">Otimização de Wi-Fi</option>
+                </select>
+                <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 DTS - Diogo Tech Solutions
+    </footer>
+</body>
+</html>
