@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1d7ded26f66b120f954ecbe53e8c51029c665eb5
+>>>>>>> a7634b581c68e6d49a511e199aaf12bd06cf68c5
 <!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
+<<<<<<< HEAD
     <title>Login DTS</title>
 </head>
 <body>
@@ -12,5 +20,31 @@
         <input type="password" name="password" placeholder="Senha" required>
         <button type="submit">Entrar</button>
     </form>
+=======
+<<<<<<< HEAD
+    <title>Login - DTS</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header><h1>Login</h1></header>
+    <main>
+        <form method="POST">
+            <label>Email: <input type="text" name="email" required></label><br>
+=======
+    <title>Login DTS</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header><h1>Área de Funcionários - Login</h1></header>
+    <main>
+        {% if erro %}<p style="color:red;">{{ erro }}</p>{% endif %}
+        <form method="POST">
+            <label>Email: <input type="email" name="email" required></label><br>
+>>>>>>> 1d7ded26f66b120f954ecbe53e8c51029c665eb5
+            <label>Senha: <input type="password" name="senha" required></label><br>
+            <button type="submit">Entrar</button>
+        </form>
+    </main>
+>>>>>>> a7634b581c68e6d49a511e199aaf12bd06cf68c5
 </body>
 </html>

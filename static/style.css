@@ -1,0 +1,118 @@
+
+body {
+<<<<<<< HEAD
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #003366;
+    margin: 0;
+    padding: 0;
+=======
+<<<<<<< HEAD
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #003366;
+>>>>>>> 1d7ded26f66b120f954ecbe53e8c51029c665eb5
+}
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+<<<<<<< HEAD
+    text-align: center;
+}
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 2rem;
+}
+form label {
+    display: block;
+    margin-top: 1rem;
+=======
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+.section {
+    margin-bottom: 2rem;
+>>>>>>> 1d7ded26f66b120f954ecbe53e8c51029c665eb5
+}
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+<<<<<<< HEAD
+=======
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+=======
+    font-family: Arial, sans-serif;
+    background: #eaf4ff;
+    color: #003366;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #003366;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 2em;
+}
+form input, form textarea, form select {
+    width: 100%%;
+    margin: 0.5em 0;
+    padding: 0.5em;
+>>>>>>> a95829e61c6c73a213cdc12cb2d0dfd35a446f4f
+>>>>>>> 1d7ded26f66b120f954ecbe53e8c51029c665eb5
+}
+button {
+    background-color: #0055aa;
+    color: white;
+<<<<<<< HEAD
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+}
+=======
+    border: none;
+<<<<<<< HEAD
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #004080;
+}
+=======
+    padding: 0.75em;
+    cursor: pointer;
+}
+>>>>>>> a95829e61c6c73a213cdc12cb2d0dfd35a446f4f
+>>>>>>> 1d7ded26f66b120f954ecbe53e8c51029c665eb5
